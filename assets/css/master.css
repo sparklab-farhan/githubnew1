@@ -3798,6 +3798,11 @@ img {
 .activenav{
   color: white !important;
 }
+
+.activenavi{
+  color: black !important;
+}
+
 .footer-menu li a:hover span, .footer-menu-2 li a:hover span {
   --m: calc(16px * -1);
 }
@@ -4480,6 +4485,10 @@ img {
   grid-template-columns: 1fr 2.2fr;
   grid-gap: 90px;
   margin-bottom: 20px;
+}
+
+.mr31{    
+  margin-left: 31% !important;
 }
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .modal__apply .input-apply {
@@ -27888,6 +27897,35 @@ body {
   margin-left: 43%;
   margin-top: 11%;
 }
+
+.waviy {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  font-size: 60px;
+  margin-top: 10%;
+  margin-left: 26%;
+}
+.waviy span {
+  position: relative;
+  display: inline-block;
+  color: #fff;
+  text-transform: uppercase;
+  animation: waviy 1.5s infinite;
+  animation-delay: calc(0.15s * var(--i));  
+}
+@keyframes waviy {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
+
+
+
 .woocomerce__hero .swiper-pagination-current {
   font-family: "Plus Jakarta Sans", sans-serif;
   position: relative;
@@ -31350,6 +31388,22 @@ ul.mega-menu-2.woocomerce-megamenu {
   width: 100%;
 }
 
+.mrlg{
+  margin-top: 11%;
+  background: linear-gradient(127deg, #535355, #bcc2c4);
+}
+
+.grc{
+  color: #dcdcdc;
+}
+
+.ctabg{
+  background: #ededed;
+}
+
+.mr2{
+  margin-top: 2%;
+}
 @media (max-width: 991px) {
   .woocomerce__filtering-wrapper {
     display: none;
@@ -34961,6 +35015,25 @@ ul.mega-menu-2.woocomerce-megamenu {
   margin-top: -2%;
 }
 
+.bgvbn7{
+  height: 18% !important;
+}
+
+
+.bgvb2{
+  height: 6% !important;
+}
+
+.bgvb3{
+  height: 4.5% !important;
+}
+
+
+.mr37{
+  margin-top: 13%;
+  background: #dedede;
+}
+
 @media only screen and (min-device-width: 601px) and (max-device-width: 2048px) {
   .header__nav-icon-2 {
     display: none;
@@ -35275,6 +35348,8 @@ width: 10%;
 .grbg{
   background: linear-gradient(127deg, #535355, #bcc2c4);
 }
+
+
 
 
 @media only screen and (min-width: 1366px) and (max-width: 1366px) {
